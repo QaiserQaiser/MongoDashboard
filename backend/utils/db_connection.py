@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-def get_database():
+def get_db():
     """Returns the connected MongoDB database instance."""
     try:
         client = MongoClient("mongodb://localhost:27017/")
